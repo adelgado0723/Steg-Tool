@@ -35,7 +35,7 @@ test.txt 		=> The constitution in plaintext for encrypting.
 
 ## Compiling Instructions:
 
-###Sequential version - navigate to the Sequential Folder
+### Sequential version - navigate to the Sequential Folder
 
 		Type "make" in the command line.
 
