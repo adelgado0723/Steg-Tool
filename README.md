@@ -33,7 +33,7 @@ test.txt 		=> The constitution in plaintext for encrypting.
 
 
 
-## Compiling Instructions:
+## Compiling and Running:
 
 ### Sequential version - navigate to the Sequential Folder
 
