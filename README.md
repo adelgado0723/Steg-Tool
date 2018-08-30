@@ -1,7 +1,31 @@
 # Text-In-Image Steganography
 
+## Contents
+
+- [**About**](#about)
+- [**Files**](#files)
+- [**Usage**](#usage)
+- [**Compiling and Running**](#compiling-and-running)
+
+---
+
 ## About
 
+Steganography is the practice of hiding a message in plain sight. This could
+mean hiding an ASCII text message inside of an image or an image inside of a
+video.
+			
+This application was developed to test how the encoding algorithm performs with
+a varying number of CPU cores.
+
+### Technologies and Concepts:
+	
+- C
+- Multiprocessing with MPI Library
+- Steganography Using Least-Significant Bit Encoding
+- Bitmap Image Manipulation
+
+---
 
 ## Files
 
@@ -13,6 +37,8 @@ bmplib.h 		=> open source bmp i/o functions header
 example.bmp	=> the original photo
 Makefile		=> A makefile that should compile the program on 				starship.
 test.txt 		=> The constitution in plaintext for encrypting.
+
+---
 
 ## Usage
 
@@ -31,7 +57,7 @@ test.txt 		=> The constitution in plaintext for encrypting.
 
 - If *bmp_steg_tool* is *encrypting* and the ***-o ooutput_file*** is provided *bmp_steg_tool* places the encrypted image in ***output_file***
 
-
+---
 
 ## Compiling and Running:
 
