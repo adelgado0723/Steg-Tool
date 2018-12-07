@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 // #include <mpi.h>
-#include "../headers/bmplib.h"
+#include "../inc/bmplib.h"
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
