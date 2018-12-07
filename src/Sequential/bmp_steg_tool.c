@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 // #include <mpi.h>
-#include "bmplib.h"
+#include "../headers/bmplib.h"
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
@@ -168,7 +168,7 @@ int main(int argc, char **argv) {
                 mflag = 1;
                 mname = optarg;
                 break;
-            case '?':
+            default:
                 fprintf(stderr, usage, argv[0]);
         }
 
