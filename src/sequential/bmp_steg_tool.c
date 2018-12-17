@@ -178,7 +178,7 @@ int main(int argc, char **argv) {
 				fprintf(stderr, usage, argv[0]);
 				exit(6);	//Unknown parameter provided
 		} 
-	} while ((c = getopt(argc, argv, "d:e:o:m:h:")) != -1);
+	} while ((c = getopt(argc, argv, "deo:m:h")) != -1);
 	
 
 
