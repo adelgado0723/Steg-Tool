@@ -34,11 +34,6 @@ Each folder, sequential and linear, includes:
 |------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
 | [src/parallel/bmp_steg_tool.c](https://github.com/adelgado0723/Steg-Tool/tree/master/src/parallel)                     | - Parallel version of text-in-image steganography tool.   |
 | [src/sequential/bmp_steg_tool.c](https://github.com/adelgado0723/Steg-Tool/blob/master/src/sequential/bmp_steg_tool.c) | - Sequential version of text-in-image steganography tool. |
-|                                                                                                                        |                                                           |
-|                                                                                                                        |                                                           |
-|                                                                                                                        |                                                           |
-|                                                                                                                        |                                                           |
-
 
 bmp_steg_tool.c => our code
 bmplib.c 		=> open source bmp i/o functions
